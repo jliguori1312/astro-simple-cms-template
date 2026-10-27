@@ -50,7 +50,7 @@ Static site template for use with simple-cms (https://github.com/jliguori1312/si
 - **Astro 7** — `output: 'static'` only. Never introduce SSR or server endpoints.
 - **Tailwind CSS 4** via `@tailwindcss/vite`. Not `@astrojs/tailwind` — do not add it.
 - **Starwind UI v3** for any UI primitive. Installed: `button`, `dialog`.
-- **Cloudflare Workers** for hosting (`@astrojs/cloudflare`, `mode: 'static'`), wired at
+- **Cloudflare Workers** for hosting (`@astrojs/cloudflare`, `output: 'static'`), wired at
   deploy time.
 - Node 26, pnpm 12. Both pinned in `package.json` (`engines`, `packageManager`).
   Always `latest` for dependencies.
