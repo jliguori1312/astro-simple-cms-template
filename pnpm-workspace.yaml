@@ -1,0 +1,12 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+
+# Wait 3 days before adopting a new release, matching Dependabot's default
+# cooldown so both layers agree on what counts as "old enough".
+minimumReleaseAge: 4320 # minutes = 3 days
+
+# Refuse a package whose publisher trust level regressed (e.g. trusted
+# publisher -> unknown), which is the pattern behind account-phishing attacks.
+trustPolicy: no-downgrade

@@ -1,0 +1,67 @@
+{
+     "seo": {
+       "title": "Site Title",
+       "description": "One-sentence site description."
+     },
+     "hero": {
+       "video": null,
+       "image": null
+     },
+     "logo": {
+       "image": null,
+       "alt": "Site logo"
+     },
+     "header": {
+       "sisterCompanies": {
+         "label": "Sister Companies",
+         "links": [
+           {
+             "label": "Sister Company",
+             "modal": {
+               "title": "Sister Company",
+               "body": "Content coming soon."
+             }
+           }
+         ]
+       },
+       "affiliateCompanies": {
+         "label": "Affiliate Companies",
+         "links": [
+           {
+             "label": "Affiliate Company",
+             "modal": {
+               "title": "Affiliate Company",
+               "body": "Content coming soon."
+             }
+           }
+         ]
+       }
+     },
+     "nav": [
+       {
+         "label": "Overview",
+         "target": "overview"
+       },
+       {
+         "label": "Gallery",
+         "target": "gallery"
+       },
+       {
+         "label": "Technical Info",
+         "modal": {
+           "title": "Technical Info",
+           "body": "Content coming soon."
+         }
+       }
+     ],
+     "sections": {
+       "overview": {
+         "heading": "Overview",
+         "body": "Content coming soon."
+       },
+       "gallery": {
+         "heading": "Gallery",
+         "body": "Content coming soon."
+       }
+     }
+   }

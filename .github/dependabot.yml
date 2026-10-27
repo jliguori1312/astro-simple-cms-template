@@ -1,0 +1,22 @@
+version: 2
+
+# Patch updates are grouped into one PR and may be auto-merged (native auto-merge,
+# enabled per PR, gated on the Workers Builds status check).
+# Minor updates are grouped into one PR for a single monthly review.
+# Major updates are intentionally left ungrouped so they arrive individually.
+#
+# No `cooldown` block: the 3-day default already applies to version updates.
+# Security updates ignore both groups and schedule, so CVEs are never delayed.
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 10
+    groups:
+      patch:
+        patterns: ["*"]
+        update-types: ["patch"]
+      minor:
+        patterns: ["*"]
+        update-types: ["minor"]
