@@ -17,7 +17,7 @@
   "dependencies": {
     "@astrojs/cloudflare": "^14.4.2",
     "@starwind-ui/astro": "1.4.0",
-    "@tabler/icons": "^3.49.0",
+    "@tabler/icons": "^3.50.0",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.4.2",
@@ -29,6 +29,6 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
     "typescript": "^6.0.3",
-    "wrangler": "^4.152.0"
+    "wrangler": "^4.156.0"
   }
 }
